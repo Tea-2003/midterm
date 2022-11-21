@@ -1,0 +1,37 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 16px;
+    grid-template-rows: 100px;
+    background: yellowgreen;
+
+  }
+
+.logo{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+
+}
+.head{
+    font-size: 30px;
+}
+.menu{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+
+}
+.menu-mot{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    padding: 20px;
+}
+
+
